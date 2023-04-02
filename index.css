@@ -61,7 +61,7 @@ main {
 .about p {
     color: var(--clr-lightgrey);
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     max-width: 430px;
 }
 
