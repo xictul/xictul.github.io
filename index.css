@@ -18,14 +18,17 @@ body {
     background: var(--clr-dark);
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 main {
     min-height: calc(100vh - 80px);
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    scale: 90%;
 }
 
 .title {
@@ -108,6 +111,17 @@ main {
         display: flex;
         flex-direction: row;
         gap: 35px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .about p {
+        color: var(--clr-lightgrey);
+        font-weight: 500;
+        font-size: 1.2rem;
+        max-width: 430px;
     }
 
 }
